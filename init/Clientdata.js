@@ -2,7 +2,7 @@ require('dotenv').config(); // ✅ always first
 const mongoose = require('mongoose');
 const Client = require('../models/Client.js'); // adjust path as needed
 
-console.log("MONGO_URI is:", process.env.MONGO_URI); // ✅ Debug
+console.log("MONGO_URI is:", process.env.MONGO_URL); // ✅ Debug
 
 mongoose.connect(process.env.MONGO_URL, {
   useNewUrlParser: true,
