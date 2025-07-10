@@ -1,0 +1,23 @@
+<% layout('/layouts/main.ejs') %>
+
+<h2>Our Projects</h2>
+<div class="project-list">
+  <% projects.forEach(p => { %>
+    <div>
+      <img src="/images/<%= p.image %>" width="100">
+      <h3><%= p.name %></h3>
+      <p><%= p.description %></p>
+    </div>
+  <% }) %>
+</div>
+
+<h2>Happy Clients</h2>
+<div class="client-list">
+  <% clients.forEach(c => { %>
+    <div>
+      <img src="/images/<%= c.image %>" width="100">
+      <h4><%= c.name %> - <%= c.designation %></h4>
+      <p><%= c.description %></p>
+    </div>
+  <% }) %>
+</div>

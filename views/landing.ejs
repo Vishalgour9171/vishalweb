@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Trust - Landing</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-5">
+        <a class="navbar-brand fw-bold text-primary" href="/"><img src="/images/logo.png" alt="" style="width: 150px; left: -50px;"></span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                <li class="nav-item"><a class="btn btn-warning ms-3 text-white" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-5 bg-light"
+        style="background: url('/images/front.png') no-repeat center center/cover; min-height: 90vh;">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-white">
+                    <h1 class="display-5 fw-bold">Consultation,<br />Design & Marketing</h1>
+                </div>
+
+                <div class="col-md-5 offset-md-1">
+                    <div class="card bg-dark bg-opacity-75 text-white p-4">
+                        <h3 class="mb-3">Get a Free Consultation</h3>
+                        <form action="/contact" method="POST">
+                            <div class="mb-2">
+                                <input type="text" class="form-control" name="fullName" placeholder="Full Name"
+                                    required />
+                            </div>
+                            <div class="mb-2">
+                                <input type="email" class="form-control" name="email" placeholder="Email Address"
+                                    required />
+                            </div>
+                            <div class="mb-2">
+                                <input type="text" class="form-control" name="mobile" placeholder="Mobile Number"
+                                    required />
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="city" placeholder="Your City" required />
+                            </div>
+                            <button class="btn btn-warning w-100 text-white" type="submit">Get Quick Quote</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="position-relative py-5" style="margin-top: -40px;">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Left Content -->
+                <div class="col-md-6">
+                    <h2 class="fw-bold text-primary mb-3">Not Your Average Realtor</h2>
+                    <p class="text-muted">
+                        Real Trust is a one-stop shop for property consultation, branding, and digital marketing.
+                        We specialize in scaling your value and visibility through smart design and strategy.
+                    </p>
+                </div>
+
+                <!-- Right Cluster -->
+                <div class="col-md-6 position-relative d-flex justify-content-center align-items-center"
+                    style="height: 320px;">
+                    <!-- Ellipse Background -->
+
+                    <!-- Image Cluster Wrapper -->
+                    <div class="position-relative" style="width: 260px; height: 260px;">
+
+                        <!-- Main Center Image -->
+                        <img src="/images/Ellipse 11.png" class="rounded-circle shadow position-absolute "
+                            style="width: 170px; height: 170px; top: 50%; left: 60%; transform: translate(-50%, -50%); z-index: 3; object-fit: cover;" />
+
+                        <!-- Top Right Small Image -->
+                        <img src="/images/Ellipse 12.png" class="rounded-circle shadow position-absolute"
+                            style="width: 120px; height: 120px; top: 0; right: -100px; transform: translate(25%, -25%); z-index: 2; object-fit: cover;" />
+
+                        <!-- Bottom Right Small Image -->
+                        <img src="/images/Ellipse 13.png" class="rounded-circle shadow position-absolute"
+                            style="width: 120px; height: 120px; bottom: 0; right: -100px; transform: translate(25%, 25%); z-index: 2; object-fit: cover;" />
+
+                        <!-- Blue Dot -->
+                        <img src="/images/Ellipse 26.png" class="position-absolute"
+                            style="width: 40px; top: 5px; left: 5px; z-index: 5;" />
+
+                        <!-- Orange Dot -->
+                        <img src="/images/Ellipse 25.png" class="position-absolute"
+                            style="width: 25px; bottom: 10px; left: 30px; z-index: 5;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Choose Us Section with Graphics -->
+    <section class="position-relative py-5 bg-white overflow-hidden">
+        <div class="container text-center">
+            <h2 class="fw-bold text-primary mb-5">Why Choose Us?</h2>
+            <div class="row mb-5">
+                <!-- Feature 1 -->
+                <div class="col-md-4">
+                    <img src="/images/home.png" alt="ROI Icon" style="width: 40px;" class="mb-3" />
+                    <h5 class="fw-bold text-primary">Potential ROI</h5>
+                    <p class="text-muted small px-3">
+                        Whether you're looking to buy a new property or renovate your current home for resale, we will
+                        work with you to help boost that value to the potential.
+                    </p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="col-md-4">
+                    <img src="/images/paintbrush-2.png" alt="Design Icon" style="width: 40px;" class="mb-3" />
+                    <h5 class="fw-bold text-primary">Design</h5>
+                    <p class="text-muted small px-3">
+                        Our designers, with interior design innovation and product guidelines, align your design
+                        experience and coordinate contractors to complete the home experience.
+                    </p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="col-md-4">
+                    <img src="/images/dollar.png" alt="Marketing Icon" style="width: 40px;" class="mb-3" />
+                    <h5 class="fw-bold text-primary">Marketing</h5>
+                    <p class="text-muted small px-3">
+                        Staying current with marketing platforms and a sophisticated digital marketing plan is necessary
+                        when buying or leasing in today's market.
+                    </p>
+                </div>
+                <img src="/images/subtract-1.png" class="bg-dots" alt="no image">
+            </div>
+    </section>
+    <section class="why-choose-us">
+        <!-- Background Decorations -->
+        <img src="/images/Ellipse 22.png" class="bg-circle" alt="no image">
+        <img src="/images/Rectangle 55.png" class="bg-square" alt="no image">
+
+        <!-- Left Image -->
+        <div class="image-box left">
+            <img src="/images/image1.jpg.png" class="main-img" alt="Left Image">
+            <img src="/images/Subtract-4.png" class="corner orange" alt="Orange Corner">
+        </div>
+
+        <!-- Center Image -->
+        <div class="image-box center">
+            <img src="/images/whycenter.png" class="main-img big" alt="Center Image">
+            <img src="/images/Rectangle 54.png" class="blue-square" alt="Blue Square">
+        </div>
+
+        <!-- Right Image -->
+        <div class="image-box right">
+            <img src="/images/choose-3.png" class="main-img" alt="Right Image">
+            <img src="/images/Ellipse 10.png" class="corner blue" alt="Blue Corner">
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us-section py-5 text-center" id="about">
+        <div class="container">
+            <h2 class="fw-bold text-primary mb-3">About Us</h2>
+            <div class="underline mx-auto mb-4"></div>
+            <p class="text-muted mx-auto" style="max-width: 600px;">
+                Fifteen years of experience in real estate, excellent customer service and a
+                commitment to work hard, listen and follow through. We provide quality service to
+                build relationships with clients and, more importantly, maintain those relationships
+                by communicating effectively.
+            </p>
+            <button class="btn btn-outline-primary mt-3">LEARN MORE</button>
+        </div>
+    </section>
+
+    <!-- Our Projects Section -->
+
+    <section class="py-5 bg-light" id="projects">
+        <div class="container">
+            <h2 class="text-primary fw-bold text-center mb-4">Our Projects</h2>
+            <p class="text-muted text-center mb-5">
+                We know what buyers are looking for and suggest projects that will bring
+                clients top dollar for the sale of their homes.
+            </p>
+
+            <div class="project-list">
+                <% projects.forEach(p=> { %>
+                    <div class="project-card text-center">
+                        <img src="/images/<%= p.image %>" alt="No image" class="img-fluid mb-3" />
+                        <h6 class="fw-bold text-primary mb-1">
+                            <%= p.name %>
+                        </h6>
+                        <p class="text-muted small">Project information is available</p>
+                        <a href="#" class="btn btn-sm btn-warning text-white">READ MORE</a>
+                    </div>
+                    <% }) %>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-white text-center" id="testimonials">
+        <h2 class="fw-bold text-primary mb-5">Happy Clients</h2>
+        <div class="container">
+            <div class="row justify-content-center g-4">
+                <% clients.forEach(c=> { %>
+                    <div class="col-md-2 col-sm-4 col-6">
+                        <div class="p-3 shadow-sm rounded bg-light">
+                            <img src="/images/<%= c.image %>" class="rounded-circle mb-2" width="50" height="50"
+                                alt="<%= c.name %>">
+                            <p class="small text-muted">
+                                <%= c.description %>
+                            </p>
+                            <h6 class="fw-bold text-primary">
+                                <%= c.name %>
+                            </h6>
+                            <small class="text-muted">
+                                <%= c.designation %>
+                            </small>
+                        </div>
+                    </div>
+                    <% }) %>
+            </div>
+        </div>
+    </section><br><br>
+    <section class="position-relative text-white text-center"
+        style="background-image: url('/images/Rectangle.png'); background-size: cover; background-position: center; padding: 100px 20px;">
+        <div class="container">
+            <h3 class="fw-bold mb-4">Learn more about our listing process, as well as our additional staging and design
+                work.</h3>
+            <a href="#" class="btn btn-light fw-bold px-4">LEARN MORE</a>
+        </div>
+    </section>
+
+    <footer class="text-white">
+        <div class="bg-primary py-4">
+            <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center ">
+                <ul class="nav bg-primary">
+                    <li class="nav-item"><a href="#" class="nav-link text-white px-2">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white px-2">Services</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white px-2">Projects</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white px-2">Testimonials</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white px-2">Contact</a></li>
+                </ul>
+                <form class="d-flex mt-3 mt-md-0">
+                    <input type="email" class="form-control me-2" placeholder="Enter Email Address">
+                    <button type="submit" class="btn btn-light fw-bold">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="bg-dark text-center py-3" style="display: flex; justify-content:space-around; flex-wrap: wrap;">
+            <p class="mb-1">All Rights Reserved © 2025</p>
+            <div><img src="/images/logo.png" alt="" style="width: 150px;"></div>
+            <div class="d-flex justify-content-center gap-3 social-media">
+                <a href="#"><img src="/images/Frame.png" width="20" alt="Facebook"></a>
+                <a href="#"><img src="/images/Group.png" width="20" alt="Instagram"></a>
+                <a href="#"><img src="/images/Group-1.png" width="20" alt="Twitter"></a>
+                <a href="#"><img src="/images/Linkedin.png" width="20" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</body>
+
+</html>
